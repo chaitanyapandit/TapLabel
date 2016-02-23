@@ -221,8 +221,8 @@ public class TapLabel: UILabel, NSLayoutManagerDelegate {
 
     public override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         super.touchesMoved(touches, withEvent: event)
-        isTouchMoved = true
-        selected = nil
+//        isTouchMoved = true
+//        selected = nil
     }
 
     public override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
